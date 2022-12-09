@@ -4,9 +4,11 @@ Duckcart Assignment
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a starting point for this Donation Tracker application.
 
+## Packages used 
 
+-> Flutter Staggered View (Grid View)
 
 ## Screenshots
 
