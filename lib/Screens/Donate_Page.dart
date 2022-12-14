@@ -76,9 +76,9 @@ class DonatePageState extends State<DonatePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        iconTheme: const IconThemeData(
-          color: Colors.black, //change your color here
-        ),
+        // iconTheme: const IconThemeData(
+        //   color: Colors.black, //change your color here
+        // ),
         backgroundColor: Theme.of(context).primaryColorLight,
         title: Row(
           children : [
@@ -87,7 +87,7 @@ class DonatePageState extends State<DonatePage> {
               backgroundImage: NetworkImage(pic),
             ),
           const SizedBox(width: 20,),
-          Text(name, style: const TextStyle(color: Colors.black),),
+          Text(name),
           ]
         ),
       ),
