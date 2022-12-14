@@ -1,16 +1,27 @@
-# donation
+# Donation Tracker Dummy
 
-Donation Tracker (Duckcart)
+Duckcart Assignment
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a starting point for this Donation Tracker application.
 
-A few resources to get you started if this is your first Flutter project:
+## Packages used 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+-> Flutter Staggered View (Grid View)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screenshots
+<img src="https://user-images.githubusercontent.com/97884033/206765554-98d26b20-645f-470b-ae72-f325e934b74a.jpg" width="200px" height="450px"/>
+<img src="https://user-images.githubusercontent.com/97884033/206765539-4b6b3bce-8d24-4b41-ab69-82cefbd0f6d5.jpg" width="200px" height="450px"/>
+<img src="https://user-images.githubusercontent.com/97884033/206765529-cb052788-ce1d-4efb-b1e3-bdd03ca37e93.jpg" width="200px" height="450px"/>
+<img src="https://user-images.githubusercontent.com/97884033/206765495-f6609510-c0b0-4971-8c5b-144f858fdf10.jpg" width="200px" height="450px"/>
+
+
+## Apk Download Link  -->  
+https://drive.google.com/file/d/1hGZW-X4U1XzfbO9nM9pL0Z69gF7aHRDW/view?usp=share_link
+
+## Notes -->
+
+1.) Not added a proper Backend yet.
+
+
