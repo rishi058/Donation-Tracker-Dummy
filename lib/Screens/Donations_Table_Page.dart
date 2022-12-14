@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'My_Donations.dart';
+import '../Models/My_Donations.dart';
 
 class DonationPreview extends StatelessWidget {
   const DonationPreview({Key? key}) : super(key: key);
@@ -9,21 +9,21 @@ class DonationPreview extends StatelessWidget {
     for (int i = 0; i < My_Donations.length; i++) {
       rows.add(TableRow(children: [
         Container(
-            padding: EdgeInsets.all(10),
+            padding: const EdgeInsets.all(10),
             child: Center(child: Text(My_Donations[i].creator_id.toString()))),
         Container(
-            padding: EdgeInsets.all(10),
+            padding: const EdgeInsets.all(10),
             child: Center(child: Text(My_Donations[i].currency))),
         Container(
-            padding: EdgeInsets.all(10),
+            padding: const EdgeInsets.all(10),
             child: Center(child: Text(My_Donations[i].amount.toString()))),
         Container(
-            padding: EdgeInsets.all(10),
+            padding: const EdgeInsets.all(10),
             child: Center(
               child: Text(My_Donations[i].name),
             )),
         Container(
-            padding: EdgeInsets.all(10),
+            padding: const EdgeInsets.all(10),
             child: Center(
               child: Text(My_Donations[i].message),
             )),
@@ -45,14 +45,14 @@ class DonationPreview extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('My Donations'),
+          title: const Text('My Donations'),
         ),
         body: SingleChildScrollView(
           child: Column(
             children: [
               Container(
-                padding: EdgeInsets.all(5),
-                margin: EdgeInsets.all(5),
+                padding: const EdgeInsets.all(5),
+                margin: const EdgeInsets.all(5),
                 width: double.infinity,
                 child: Table(
                   border: TableBorder.all(color: Colors.black, width: 2),
@@ -66,32 +66,32 @@ class DonationPreview extends StatelessWidget {
                   children: [
                     TableRow(children: [
                       Container(
-                        padding: EdgeInsets.all(5),
+                        padding: const EdgeInsets.all(5),
                         child: const Center(
                           child: Text('Creator \n Id', textAlign: TextAlign.center,),
                         ),
                       ),
                       Container(
-                        padding: EdgeInsets.all(2),
-                        child: Center(
+                        padding: const EdgeInsets.all(2),
+                        child: const Center(
                           child: Text('Currency'),
                         ),
                       ),
                       Container(
                         padding: EdgeInsets.all(7),
-                        child: Center(
+                        child: const Center(
                           child: Text('Amount'),
                         ),
                       ),
                       Container(
-                        padding: EdgeInsets.all(10),
-                        child: Center(
+                        padding: const EdgeInsets.all(10),
+                        child: const Center(
                           child: Text('Name'),
                         ),
                       ),
                       Container(
-                        padding: EdgeInsets.all(10),
-                        child: Center(
+                        padding: const EdgeInsets.all(10),
+                        child: const Center(
                           child: Text('Message'),
                         ),
                       ),
@@ -99,10 +99,10 @@ class DonationPreview extends StatelessWidget {
                   ],
                 ),
               ),
-              SizedBox(height: 5,),
-              My_Donations.length==0 ? Center(child: Text('No Donations Made. .  .', style: TextStyle(color: Colors.deepPurple),)): Container(
-                padding: EdgeInsets.all(5),
-                margin: EdgeInsets.all(5),
+              const SizedBox(height: 5,),
+              My_Donations.isEmpty ? const Center(child: Text('No Donations Made. .  .', style: TextStyle(color: Colors.deepPurple),)): Container(
+                padding: const EdgeInsets.all(5),
+                margin: const EdgeInsets.all(5),
                 width: double.infinity,
                 child: createTable(),
               ),
